@@ -157,14 +157,16 @@
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-.container {
+.listbox{
     display: flex;
-    justify-content: space-between;
-    gap: 10px; /* Khoảng cách giữa các box */
-    flex-wrap: wrap; /* Đảm bảo box sẽ xuống hàng khi không còn đủ chỗ */
-    padding: 20px;
-    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 5rem;
 }
+
+
 
 .outer-box {
     padding: 20px;
